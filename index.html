@@ -88,7 +88,7 @@
     <section id="galery">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col">  
             <h2>My Galery</h2>
           </div>
         </div>
@@ -206,5 +206,17 @@
       Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/mangpatol/" class="text-white fw-bold">iPatoru</a>
     </footer>
     <!-- Akhir Footer -->
+
+    <script>
+      const scriptURL = '<SCRIPT URL>'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
   </body>
 </html>
