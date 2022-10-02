@@ -74,22 +74,31 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-about text-center">
+              <h2 class="fw-bold mb-5 text-success">About Me</h2>
+            </div>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <h2>Get to know me deeper!</h2>
-            <p>
+            <p class="text-muted">
               I am a graduate of SMK Negeri 1 Surabaya majoring in Computer and Network Engineering. Have internship experience in the world of Information Technology as IT Support, I also do video and audio editing and other production
               stuff in my church ministry.
             </p>
           </div>
-          <div class="col-md-4">
-            <p>Saya memiliki kepribadian yang jujur dan rasa tanggung jawab yang tinggi, dapat menggunakan Ms. Word , Excel, Power Point dan beberapa aplikasi lainnya.</p>
+          <div class="col-md-6">
+            <h2>Let's Connect!</h2>
+            <p class="text-muted">Get connected with me on social media. I love making new friends!</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/ipatoru" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/iPatoruuu" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/mangpatol/" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/iPatoru" class="text-dark me-2"><i class="fab fa-github"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -108,7 +117,7 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Galery</h2>
+            <h2 class="text-success fw-bold mb-5">My Galery</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -183,39 +192,39 @@
     <!-- Akhir Gallery -->
 
     <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
+    <section class="contact" id="contact">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg text-center">
+            <h2 class="text-success fw-bold mb-5">React Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Thank you!</strong> We have received your message.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="contact-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Massage</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-success btn-kirim">Submit</button>
-              <button class="btn btn-success btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Thank you!</strong> We have received your message.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
+          <form name="contact-form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Massage</label>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-kirim">Submit</button>
+            <button class="btn btn-success btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </form>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
