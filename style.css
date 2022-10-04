@@ -1,5 +1,6 @@
 .jumbotron {
   background-color: #e2edff;
+  padding: auto;
 }
 
 #galery {
@@ -9,5 +10,3 @@
 section {
   padding-top: 5rem;
 }
-
-
